@@ -24,6 +24,17 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
+  name: debsmita1
+spec:
+  profile:
+    # Intentional no displayName for testing
+    email: debsmita.santra@gmail.com
+  memberOf: [temp-team-a]
+---
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
   name: its-mitesh-kumar
 spec:
   profile:
